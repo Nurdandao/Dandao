@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quizmin — Sign Up</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* SIGN UP - PAGE */
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #b9dcff;
+    overflow-x: hidden;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2ca4ff;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn {
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-login {
+    border: 2px solid #4cb6ff;
+    color: #4cb6ff;
+    background: transparent;
+}
+
+.btn-signup {
+    background: linear-gradient(to right, #ff7ad4, #bd7aff);
+    color: white;
+    border: none;
+}
+
+/* ---------- BACKGROUND CIRCLES ---------- */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(60px);
+}
+
+.circle1 {
+    width: 400px;
+    height: 400px;
+    background: #ff8ad4;
+    top: 200px;
+    left: -150px;
+}
+
+.circle2 {
+    width: 350px;
+    height: 350px;
+    background: #c48aff;
+    bottom: 50px;
+    right: -100px;
+}
+
+
+/* PAGE CENTER */
+.wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  margin: 80px auto;
+}
+
+
+
+
+
+
+
+/* ---------- FORM CONTAINER ---------- */
+
+.form-box {
+    position: relative;
+    z-index: 5;
+    width: 360px;
+    margin: 80px auto;
+    background: linear-gradient(to bottom, #ff8ad4, #bd7aff);
+    padding: 40px 30px;
+    border-radius: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 8px 0;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    background: white;
+    color: #4b4b4b;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.small-text {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #eee;
+}
+
+.agree-text {
+    color: black;
+}
+
+.terms-text {
+    color: white;
+    font-weight: 600;
+}
+
+#continueicon
+{
+margin-right:5px;
+
+}
+
+</style>
+
+<body>
+  <header>
+        <nav>
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><button>Contact</button></li>
+            </ul>
+                <a href="profile.html" class="profile-btn">Profile</a>
+            
+        </nav>
+    </header>
+
+<div class="form-box">
+    <h2>Join Quizmin Today!</h2>
+
+    <input type="text" placeholder="Full name">
+    <input type="email" placeholder="Email">
+    <div class="password-wrapper">
+      <input type="password" placeholder="Password">
+      <span class="eye">  <img src="images/eye.png" alt="eye_icon" width="20" id="continueicon"> </span>
+     </div>
+    <div class="password-wrapper">
+     <input type="password" placeholder="Confirm password">
+     <span class="eye">  <img src="images/eye.png" alt="eye_icon" width="20" id="continueicon"> </span>
+    </div>
+
+    <div class="small-text">Already have an account?</div>
+
+<div class="checkbox-area">
+    <input type="checkbox"> 
+    <span class="agree-text">I agree to the </span>
+    <span class="terms-text">Terms and Conditions</span> 
+</div>
+    <button class="register-btn">Register</button>
+</body>
+</html>
