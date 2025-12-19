@@ -11,6 +11,14 @@ body{
     background-position: right center, left top, right top, left bottom;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 }
+#about{
+  background-color: #DEC3ED;
+  padding: 20px;
+  font-variant: small-caps;
+  width: 300px;
+  align-items: center;
+  margin: 10px auto;
+}
 a{text-decoration: none;}
 nav{
     background-color: #FFFFFF;
